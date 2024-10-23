@@ -1,0 +1,45 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}My Orders{% endblock title %}
+{% block main-content %}
+<h3 class="d-flex align-items-center justify-content-center mt-3 mb-4">Order Details</h3>
+<hr>
+
+<div claass="container my-5"></div>
+    <div class="row ms-5">
+       
+                
+            <table class="table ml-3">
+                <thead>
+                  <tr>
+                    <th scope="col">Order_id</th>
+                    <th scope="col">Customer</th>
+                    <th scope="col">Product</th>
+                    <th scope="col">Status</th>
+                    <th scope="col">Ordered_date</th>
+                    <th scope="col">Payment Amount</th>
+                  </tr>
+                </thead>
+                {% for order in Orderdetails %}
+
+                    <tbody>
+                      <tr>
+                        <th scope="row">{{order.id}}</th>
+                        <td>{{order.customer.name}}</td>
+                        <td>{{order.product.title}}</td>
+                        <td>{{order.status}}</td>
+                        <td>{{order.ordered_date}}</td>
+                        <td>{{order.payment.amount}}</td>
+                      </tr>
+                      
+                    </tbody>
+                    {% endfor %}
+                  </table>
+
+                    </div>
+                  
+                
+            </div>
+        </div>
+   
+{% endblock main-content %}

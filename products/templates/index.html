@@ -1,0 +1,365 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}Home{% endblock title %}
+
+
+
+
+{% block banner_slider %}
+
+
+
+{% endblock banner_slider %}
+{% block main-content %}
+
+
+
+<section id="feature" class="section-p1">
+  <div class="fe-box">
+    
+    <img src="{% static 'images/f1.png' %}" alt="">
+    <h6>Free Shipping</h6>
+  </div>
+
+  <div class="fe-box">
+    <img src="{% static 'images/f2.png' %}" alt="">
+    <h6>Online Order</h6>
+  </div>
+
+  <div class="fe-box">
+    <img src="{% static 'images/f3.png' %}" alt="">
+    <h6>Save Money</h6>
+  </div>
+
+  <div class="fe-box">
+    <img src="{% static 'images/f4.png' %}" alt="">
+    <h6>Promotions</h6>
+  </div>
+
+  <div class="fe-box">
+    <img src="{% static 'images/f8.png' %}" alt="">
+    <h6>Happy Sell</h6>
+  </div>
+
+  <div class="fe-box">
+    <img src="{% static 'images/f6.png' %}" alt="">
+    <h6>F24/7Support</h6>
+  </div>
+
+  
+</section>
+
+
+<section id="product1" class="section-p1">
+  <h2> Featured Products</h2>
+  <p>Summer Collection New Morden Design</p>
+  <div class="pro-container">
+  
+    <a href="{% url 'category' 'HS' %}" >
+    <div class="pro">
+      
+      <img src="{% static 'images/f1.jpg' %}" alt="">
+      
+      <div class="des">
+        <span>Adidas</span>
+      </a>
+        <h5>Cartoon Astronaut T-Shirts</h5>
+        <div class="star">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </div>
+        <h4>Rs 999.00/-</h4>
+      </div>
+   
+      <a href="#"><i class="fa-solid fa-cart-shopping   "></i></a>
+    </div>
+
+    <a href="{% url 'category' 'HS' %}" >
+    <div class="pro">
+      <img src="{% static 'images/f2.jpg'%}" alt="">
+      <div class="des">
+        <span>Flying Machine</span></a>
+        <h5>Cartoon Leaves T-Shirts</h5>
+        <div class="star">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </div>
+        <h4>Rs 1199.00/-</h4>
+      </div>
+      <a href="#"><i class="fa-solid fa-cart-shopping   "></i></a>
+    </div>
+
+    <a href="{% url 'category' 'HS' %}" >
+    <div class="pro">
+      <img src="{% static 'images/f3.jpg' %}" alt="">
+      <div class="des">
+        <span>Spunk</span></a>
+        <h5>  Shirts</h5>
+        <div class="star">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </div>
+        <h4>Rs 1199.00/-</h4>
+      </div>
+      <a href="#"><i class="fa-solid fa-cart-shopping   "></i></a>
+    </div>
+
+    <a href="{% url 'category' 'HS' %}" >
+    <div class="pro">
+      <img src="{% static 'images/f4.jpg'%}" alt="">
+      <div class="des">
+        <span>Single</span></a>
+        <h5>White Shirts</h5>
+        <div class="star">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </div>
+        <h4>Rs 899.00/-</h4>
+      </div>
+      <a href="#"><i class="fa-solid fa-cart-shopping   "></i></a>
+    </div>
+
+    <a href="{% url 'category' 'HS' %}" >
+    <div class="pro">
+      <img src="{% static 'images/f5.jpg' %}" alt="">
+      <div class="des">
+        <span>Roadster</span></a>
+        <h5> Trendy Half Shirts</h5>
+        <div class="star">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </div>
+        <h4>Rs 599.00/-</h4>
+      </div>
+      <a href="#"><i class="fa-solid fa-cart-shopping   "></i></a>
+    </div>
+
+    <a href="{% url 'category' 'ST' %}" >
+    <div class="pro">
+      <img src="{% static 'images/f6.jpg' %}" alt="">
+      <div class="des">
+        <span>Highlander</span></a>
+        <h5>Trendy Shirts</h5>
+        <div class="star">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </div>
+        <h4>Rs 1299.00/-</h4>
+      </div>
+      <a href="#"><i class="fa-solid fa-cart-shopping   "></i></a>
+    </div>
+
+    <a href="{% url 'category' 'LP' %}" >
+    <div class="pro">
+      <img src="{% static 'images/f7.jpg' %}" alt="">
+      <div class="des">
+        <span>Lyra</span></a>
+        <h5>Ladies Pants </h5>
+        <div class="star">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </div>
+        <h4>Rs 999.00/-</h4>
+      </div>
+      <a href="#"><i class="fa-solid fa-cart-shopping   "></i></a>
+    </div>
+
+
+    <a href="{% url 'category' 'TP' %}" >
+    <div class="pro">
+      <img src="{% static 'images/f8.jpg' %}" alt="">
+      <div class="des">
+        <span>Aurelia</span></a>
+        <h5>Ladies Tops</h5>
+        <div class="star">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </div>
+        <h4>Rs 699.00/-</h4>
+      </div>
+      <a href="#"><i class="fa-solid fa-cart-shopping   "></i></a>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+<section id="product1" class="section-p1">
+  <h2> New Arrivals</h2>
+  <p>Summer Collection New Morden Design</p>
+  <a href="{% url 'category' 'ST' %}" >
+  <div class="pro-container">
+    <div class="pro">
+      <img src="{% static 'images/n1.jpg' %}" alt="">
+      <div class="des">
+        <span>Peter England</span></a>
+        <h5>Shirts</h5>
+        <div class="star">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </div>
+        <h4>Rs 1599.00/-</h4>
+      </div>
+      <a href="#"><i class="fa-solid fa-cart-shopping   "></i></a>
+    </div>
+
+    <a href="{% url 'category' 'ST' %}" >
+    <div class="pro">
+      <img src="{% static 'images/n2.jpg' %}" alt="">
+      <div class="des">
+        <span>spunk</span></a>
+        <h5>Cotton Shirts</h5>
+        <div class="star">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </div>
+        <h4>Rs 799.00/-</h4>
+      </div>
+      <a href="#"><i class="fa-solid fa-cart-shopping   "></i></a>
+    </div>
+
+    <a href="{% url 'category' 'ST' %}" >
+    <div class="pro">
+      <img src="{% static 'images/n3.jpg' %}" alt="">
+      <div class="des">
+        <span>puma</span></a>
+        <h5>  Shirts</h5>
+        <div class="star">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </div>
+        <h4>Rs 1699.00/-</h4>
+      </div>
+      <a href="#"><i class="fa-solid fa-cart-shopping   "></i></a>
+    </div>
+
+    <a href="{% url 'category' 'HS' %}" >
+    <div class="pro">
+      <img src="{% static 'images/n4.jpg' %}" alt="">
+      <div class="des">
+        <span>Roadster</span></a>
+        <h5>Shirts</h5>
+        <div class="star">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </div>
+        <h4>Rs 1499.00/-</h4>
+      </div>
+      <a href="#"><i class="fa-solid fa-cart-shopping   "></i></a>
+    </div>
+
+    <a href="{% url 'category' 'ST' %}" >
+    <div class="pro">
+      <img src="{% static 'images/n5 1.jpg' %}" alt="">
+      <div class="des">
+        <span>Lewis</span></a>
+        <h5>Shirts</h5>
+        <div class="star">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </div>
+        <h4>Rs 1899.00/-</h4>
+      </div>
+      <a href="#"><i class="fa-solid fa-cart-shopping   "></i></a>
+    </div>
+
+    <a href="{% url 'category' 'JS' %}" >
+    <div class="pro">
+      <img src="{% static 'images/n6.jpg' %}" alt="">
+      <div class="des">
+        <span>Flying machine</span></a>
+        <h5>Jeans</h5>
+        <div class="star">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </div>
+        <h4>$28</h4>
+      </div>
+      <a href="#"><i class="fa-solid fa-cart-shopping   "></i></a>
+    </div>
+
+    <a href="{% url 'category' 'ST' %}" >
+    <div class="pro">
+      <img src="{% static 'images/n7.jpg' %}" alt="">
+      <div class="des">
+        <span>Wrogn</span></a>
+        <h5>Full-Shirts</h5>
+        <div class="star">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </div>
+        <h4>Rs 2199.00/-</h4>
+      </div>
+      <a href="#"><i class="fa-solid fa-cart-shopping   "></i></a>
+    </div>
+
+    <a href="{% url 'category' 'HS' %}" >
+    <div class="pro">
+      <img src="{% static 'images/n8.jpg' %}" alt="">
+      <div class="des">
+        <span>Cantabil</span></a>
+        <h5>Shirts</h5>
+        <div class="star">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </div>
+        <h4>Rs 1399.00/-</h4>
+      </div>
+      <a href="#"><i class="fa-solid fa-cart-shopping   "></i></a>
+    </div>
+  </div>
+</section>
+
+
+    {% endblock main-content %}
